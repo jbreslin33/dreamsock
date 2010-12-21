@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3DLIBexample5 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP146.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/3DLIBexample5.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Books\DGTMGP\New\code\3DLIBexample5\CPlayer.cpp"
+"D:\Books\DGTMGP\New\code\3DLIBexample5\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP146.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP147.tmp" with contents
+[
+winmm.lib 3dlib.lib opengl32.lib glu32.lib glaux.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/3DLIBexample5.pdb" /machine:I386 /out:"Release/3DLIBexample5.exe" 
+.\Release\CPlayer.obj
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP147.tmp"
+<h3>Output Window</h3>
+Compiling...
+CPlayer.cpp
+main.cpp
+D:\Books\DGTMGP\New\code\3DLIBexample5\main.cpp(237) : warning C4700: local variable 'msg' used without having been initialized
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+3DLIBexample5.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

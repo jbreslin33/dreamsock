@@ -1,0 +1,54 @@
+Log file started Tue Jul 15 22:27:41 2003
+Tue Jul 15 22:27:41 2003: WSAStartup OK
+Tue Jul 15 22:27:43 2003: Server's information: IP address: , port: 30003
+Tue Jul 15 22:27:43 2003: No net interface given, using any interface available
+Tue Jul 15 22:27:43 2003: No port defined, picking one for you
+Tue Jul 15 22:27:43 2003: Opening UDP port = 3358
+Tue Jul 15 22:27:43 2003: CLobby::Connect
+Tue Jul 15 22:27:43 2003: Error code 10049: sendto() : Unknown error
+Tue Jul 15 22:27:43 2003: Error code 10049: sendto() : Unknown error
+Tue Jul 15 22:27:53 2003: Server's information: IP address: 127.0.0.1, port: 30003
+Tue Jul 15 22:27:53 2003: No net interface given, using any interface available
+Tue Jul 15 22:27:53 2003: No port defined, picking one for you
+Tue Jul 15 22:27:53 2003: Opening UDP port = 3362
+Tue Jul 15 22:27:53 2003: CLobby::Connect
+Tue Jul 15 22:27:53 2003: LIBRARY: Client: got connect confirmation
+Tue Jul 15 22:27:53 2003: LIBRARY: Client: adding a client
+Tue Jul 15 22:27:53 2003: App: Client: Adding client with index 2
+Tue Jul 15 22:27:53 2003: App: Client: Adding first client
+Tue Jul 15 22:27:53 2003: App: Client: This one is local
+Tue Jul 15 22:27:53 2003: Got lobby login respond 200
+Tue Jul 15 22:27:55 2003: Joining game 0 (we are host)
+Tue Jul 15 22:27:55 2003: StartConnection 0
+Tue Jul 15 22:27:55 2003: Server's information: IP address: 127.0.0.1, port: 30004
+Tue Jul 15 22:27:55 2003: No net interface given, using any interface available
+Tue Jul 15 22:27:55 2003: No port defined, picking one for you
+Tue Jul 15 22:27:55 2003: Opening UDP port = 3363
+Tue Jul 15 22:27:55 2003: CArmyWar::Connect
+Tue Jul 15 22:27:56 2003: LIBRARY: Client: got connect confirmation
+Tue Jul 15 22:27:56 2003: LIBRARY: Client: adding a client
+Tue Jul 15 22:27:56 2003: App: Client: Adding client with index 1
+Tue Jul 15 22:27:56 2003: App: Client: Adding first client
+Tue Jul 15 22:27:56 2003: App: Client: This one is local
+Tue Jul 15 22:27:56 2003: Reading NONDELTAFRAME for client 1
+Tue Jul 15 22:28:01 2003: Client 1: Read key 1
+Tue Jul 15 22:28:01 2003: Client 1: Read key 5
+Tue Jul 15 22:28:01 2003: Client 1: Read key 4
+Tue Jul 15 22:28:01 2003: Client 1: Read key 6
+Tue Jul 15 22:28:02 2003: Client 1: Read key 2
+Tue Jul 15 22:28:02 2003: Client 1: Read key 10
+Tue Jul 15 22:28:03 2003: Client 1: Read key 8
+Tue Jul 15 22:28:03 2003: Client 1: Read key 9
+Tue Jul 15 22:28:04 2003: Client 1: Read key 1
+Tue Jul 15 22:28:05 2003: Client 1: Read key 5
+Tue Jul 15 22:28:06 2003: Client 1: Read key 1
+Tue Jul 15 22:28:06 2003: Client 1: Read key 5
+Tue Jul 15 22:28:07 2003: Client 1: Read key 4
+Tue Jul 15 22:28:07 2003: Client 1: Read key 6
+Tue Jul 15 22:28:07 2003: Client 1: Read key 2
+Tue Jul 15 22:28:07 2003: Client 1: Read key 10
+Tue Jul 15 22:28:08 2003: Client 1: Read key 0
+Tue Jul 15 22:28:13 2003: CLobby::Disconnect
+Tue Jul 15 22:28:13 2003: CSignin::Disconnect
+Tue Jul 15 22:28:13 2003: SendPacket error: Could not send because the client is disconnected
+Tue Jul 15 22:28:13 2003: Error code 10038: recvfrom() : Unknown error

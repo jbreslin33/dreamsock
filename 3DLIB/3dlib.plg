@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3dlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/3dlib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Books\DGTMGP\New\code\3DLIB\C3Dcamera.cpp"
+"D:\Books\DGTMGP\New\code\3DLIB\C3Dlib.cpp"
+"D:\Books\DGTMGP\New\code\3DLIB\C3Dmodel.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\3dlib.lib"  .\Debug\C3Dcamera.obj .\Debug\C3Dlib.obj .\Debug\C3Dmodel.obj "
+<h3>Output Window</h3>
+Compiling...
+C3Dcamera.cpp
+C3Dlib.cpp
+C3Dmodel.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+3dlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

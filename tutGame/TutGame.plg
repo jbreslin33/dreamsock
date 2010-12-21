@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TutGame - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/TutGame.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Books\DGTMGP\New\code\tutGame\client.cpp"
+"E:\Books\DGTMGP\New\code\tutGame\lobby.cpp"
+"E:\Books\DGTMGP\New\code\tutGame\main.cpp"
+"E:\Books\DGTMGP\New\code\tutGame\network.cpp"
+"E:\Books\DGTMGP\New\code\tutGame\signin.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP151.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib dreamSock.lib 2dlib.lib opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TutGame.pdb" /debug /machine:I386 /out:"Debug/TutGame.exe" /pdbtype:sept 
+.\Debug\client.obj
+.\Debug\lobby.obj
+.\Debug\main.obj
+.\Debug\network.obj
+.\Debug\signin.obj
+.\Debug\RESOURCE.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP151.tmp"
+<h3>Output Window</h3>
+Compiling...
+client.cpp
+Auto linking WinSock2 library
+lobby.cpp
+E:\Books\DGTMGP\New\code\tutGame\lobby.cpp(201) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+main.cpp
+network.cpp
+E:\Books\DGTMGP\New\code\tutGame\network.cpp(433) : warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+E:\Books\DGTMGP\New\code\tutGame\network.cpp(515) : warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+signin.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+TutGame.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

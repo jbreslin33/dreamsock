@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mysql1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP275.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mysql1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"H:\Books\DGTMGP\New\code\mysql1\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP275.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP276.tmp" with contents
+[
+mysql++.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mysql1.pdb" /debug /machine:I386 /out:"Debug/mysql1.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP276.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+h:\books\dgtmgp\new\code\mysql++\include\type_info1.hh(39) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\type_info1.hh(159) : warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\type_info1.hh(172) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\type_info1.hh(176) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\type_info1.hh(180) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\type_info1.hh(184) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\sql_query1.hh(37) : warning C4800: 'class SQLQuery *' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\sql_query1.hh(135) : warning C4355: 'this' : used in base member initializer list
+h:\books\dgtmgp\new\code\mysql++\include\compare1.hh(48) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+h:\books\dgtmgp\new\code\mysql++\include\result1.hh(33) : warning C4355: 'this' : used in base member initializer list
+h:\books\dgtmgp\new\code\mysql++\include\result1.hh(42) : warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+c:\program files\microsoft visual studio\vc98\include\utility(25) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::iterator' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(93) : see reference to class template instantiation 'std::pair<std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::iterator,bool>' being compiled
+        c:\program files\microsoft visual studio\vc98\include\map(93) : while compiling class-template member function 'int &__thiscall std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::operator [](const std::basic_string<char,std::char_traits<char>,std::allocator<char> > &)'
+Linking...
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)" (??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Tidy(bool)" (?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int)" (?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "void __cdecl std::_Xlen(void)" (?_Xlen@std@@YAXXZ) already defined in libcpd.lib(string.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::allocator<char> const &)" (??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$allocator@D@1@@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::ios_base::Init::Init(void)" (??0Init@ios_base@std@@QAE@XZ) already defined in libcpd.lib(iostream.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::ios_base::Init::~Init(void)" (??1Init@ios_base@std@@QAE@XZ) already defined in libcpd.lib(iostream.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::_Winit::_Winit(void)" (??0_Winit@std@@QAE@XZ) already defined in libcpd.lib(wiostrea.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::_Winit::~_Winit(void)" (??1_Winit@std@@QAE@XZ) already defined in libcpd.lib(wiostrea.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Eos(unsigned int)" (?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Grow(unsigned int,bool)" (?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Split(void)" (?_Split@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "void __cdecl std::_Xran(void)" (?_Xran@std@@YAXXZ) already defined in libcpd.lib(string.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const *,unsigned int)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int,unsigned int)" (?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: char const * __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::c_str(void)const " (?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,char const *)" (??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: virtual __thiscall std::strstream::~strstream(void)" (??1strstream@std@@UAE@XZ) already defined in libcpd.lib(strstrea.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: virtual __thiscall std::basic_iostream<char,struct std::char_traits<char> >::~basic_iostream<char,struct std::char_traits<char> >(void)" (??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: virtual __thiscall std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::basic_iostream<char,struct std::char_traits<char> >::basic_iostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *)" (??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: void __thiscall std::ios_base::clear(int,bool)" (?clear@ios_base@std@@QAEXH_N@Z) already defined in libcpd.lib(ios.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(unsigned int,char)" (?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z) already defined in libcpd.lib(iostream.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "protected: void __thiscall std::strstreambuf::_Init(int,char *,char *,int)" (?_Init@strstreambuf@std@@IAEXHPAD0H@Z) already defined in libcpd.lib(strstrea.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: __thiscall std::_Lockit::_Lockit(void)" (??0_Lockit@std@@QAE@XZ) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(void)" (?_Init@locale@std@@CAPAV_Locimp@12@XZ) already defined in libcpd.lib(locale0.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: virtual __thiscall std::strstreambuf::~strstreambuf(void)" (??1strstreambuf@std@@UAE@XZ) already defined in libcpd.lib(strstrea.obj)
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: unsigned char & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Refcnt(char const *)" (?_Refcnt@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEAAEPBD@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "public: char & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator[](unsigned int)" (??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z) already defined in main.obj
+msvcprt.lib(MSVCP60.dll) : error LNK2005: "private: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Freeze(void)" (?_Freeze@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ) already defined in main.obj
+MSVCRT.lib(MSVCRT.dll) : error LNK2005: _memmove already defined in LIBCD.lib(memmove.obj)
+MSVCRT.lib(MSVCRT.dll) : error LNK2005: _tolower already defined in LIBCD.lib(tolower.obj)
+MSVCRT.lib(MSVCRT.dll) : error LNK2005: "public: int __thiscall type_info::operator==(class type_info const &)const " (??8type_info@@QBEHABV0@@Z) already defined in LIBCD.lib(typinfo.obj)
+MSVCRT.lib(MSVCRT.dll) : error LNK2005: "public: int __thiscall type_info::before(class type_info const &)const " (?before@type_info@@QBEHABV1@@Z) already defined in LIBCD.lib(typinfo.obj)
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+Debug/mysql1.exe : fatal error LNK1169: one or more multiply defined symbols found
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+mysql1.exe - 39 error(s), 13 warning(s)
+</pre>
+</body>
+</html>
